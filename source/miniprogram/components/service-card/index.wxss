@@ -1,0 +1,30 @@
+@import "../../styles/component.wxss";
+  
+.media {
+  position:relative;
+  padding-top:100%;
+}
+.cover {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  border-radius:var(--radius-input);
+  background:var(--color-surface-secondary)
+}
+.placeholder {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--color-text-muted);
+  font-size:var(--font-secondary)
+}
+.title {
+  font-size:var(--font-body)
+}
+.price {
+  font-size:var(--font-body);
+  font-weight:600;
+  overflow-wrap:break-word
+}

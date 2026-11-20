@@ -1,0 +1,53 @@
+:host  {
+   display:block;
+}
+.box  {
+   box-sizing:border-box;
+}
+.card  {
+   background:var(--color-surface);
+   padding:var(--space-4);
+   border-radius:var(--radius-card);
+   overflow:hidden;
+}
+.title  {
+   font-size:var(--font-card);
+   font-weight:600;
+   overflow-wrap:break-word;
+}
+.secondary  {
+   color:var(--color-text-tertiary);
+   font-size:var(--font-secondary);
+   overflow-wrap:break-word;
+}
+.row  {
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   gap:var(--space-2);
+}
+.grow  {
+   flex:1;
+   min-width:0;
+}
+.space  {
+   margin-top:var(--space-3);
+}
+.press  {
+   opacity:.75;
+   transform:scale(.98);
+}
+button  {
+   margin:0;
+   padding:0;
+   border:0;
+   font:inherit;
+   line-height:1.5;
+   background:transparent;
+   color:inherit;
+   border-radius:0;
+}
+button::after  {
+   border:0;
+}
+

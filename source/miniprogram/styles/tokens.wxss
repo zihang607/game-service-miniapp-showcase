@@ -1,0 +1,50 @@
+page  {
+  
+ --color-background:#F5F5F7;
+   --color-surface:#FFFFFF;
+   --color-surface-secondary:#F2F2F7;
+   --color-surface-tertiary:#EDEDF0;
+  
+ --color-text-primary:#1D1D1F;
+   --color-text-secondary:#3A3A3C;
+   --color-text-tertiary:#6E6E73;
+   --color-text-muted:#8E8E93;
+   --color-text-disabled:#AEAEB2;
+  
+ --color-divider:rgba(60,60,67,.12);
+   --color-border:rgba(60,60,67,.16);
+  
+ --color-brand:#FFB800;
+   --color-success:#34C759;
+   --color-info:#007AFF;
+   --color-warning:#FF9500;
+   --color-danger:#FF3B30;
+  
+ --space-1:4px;
+   --space-2:8px;
+   --space-3:12px;
+   --space-4:16px;
+   --space-5:20px;
+   --space-6:24px;
+   --space-8:32px;
+  
+ --radius-small:6px;
+   --radius-input:10px;
+   --radius-button:12px;
+   --radius-card:14px;
+   --radius-large:16px;
+   --radius-banner:18px;
+  
+ --font-display:28px;
+   --font-page:24px;
+   --font-section:20px;
+   --font-card:17px;
+   --font-body:15px;
+   --font-secondary:13px;
+   --font-label:12px;
+   --font-caption:11px;
+   --color-brand-soft:#FFF4D4;
+   --color-brand-ink:#775900;
+   --color-danger-ink:#A5342E;
+   --control-height:44px;
+}

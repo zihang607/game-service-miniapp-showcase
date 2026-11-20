@@ -1,0 +1,10 @@
+<view class="card" hover-class="press" bindtap="onPress" role="button" aria-label="{{title}}">
+<view class="media">
+<image wx:if="{{image}}" class="cover" src="{{image}}" mode="aspectFill"/>
+<view wx:else class="cover placeholder">服务</view>
+</view>
+<view class="title space">{{title}}</view>
+<view class="secondary space">{{description}}</view>
+<view class="secondary space">已完成 {{completedOrders}} 单</view>
+<view class="price space">{{price === null ? '暂无可选服务' : '¥' + price + ' 起'}}</view>
+</view>

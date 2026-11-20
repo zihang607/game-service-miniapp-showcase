@@ -1,0 +1,38 @@
+@import "../../styles/component.wxss";
+  
+.search {
+  background:var(--color-surface-secondary);
+  border-radius:var(--radius-input);
+  padding:0 var(--space-3);
+  min-height:44px
+}
+.placeholder {
+  color:var(--color-text-muted)
+}
+input {
+  font-size:var(--font-body);
+  height:44px;
+  min-width:0
+}
+.magnifier {
+  width:12px;
+  height:12px;
+  border:2px solid var(--color-text-muted);
+  border-radius:50%;
+  position:relative;
+  margin-right:var(--space-1)
+}
+.magnifier::after {
+  content:"";
+  position:absolute;
+  width:6px;
+  height:2px;
+  background:var(--color-text-muted);
+  right:-5px;
+  bottom:-3px;
+  transform:rotate(45deg)
+}
+.clear {
+  padding:var(--space-2) 0
+}
+

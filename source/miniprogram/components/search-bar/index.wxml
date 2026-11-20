@@ -1,0 +1,7 @@
+<view class="search row">
+<view class="magnifier">
+</view>
+<input class="grow" value="{{value}}" placeholder="{{placeholder}}" placeholder-class="placeholder" disabled="{{disabled}}" maxlength="100" confirm-type="search" bindinput="onInput" bindconfirm="onConfirm"/>
+<button wx:if="{{value}}" disabled="{{disabled}}" class="clear secondary" aria-label="清空搜索" bindtap="onClear">清空</button>
+</view>
+
